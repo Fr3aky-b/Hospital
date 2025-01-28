@@ -10,6 +10,29 @@
   <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
   <script src="Bootstrap/js/bootstrap.min.js"></script>
 
+  <style>
+   th,td{
+     border: 1px solid black;
+     text-align: center;
+     padding: 10px;
+
+   }
+    .merge{
+      vertical-align: middle;
+
+    }
+
+
+
+
+
+
+  </style>
+
+
+
+
+
 
 </head>
 <body>
@@ -84,32 +107,52 @@
   </tr>
 
 
+</table>
 
-</tr>
-
-
-
-
-
-</tr>
-
-
-
-
-
+<table class="table container">
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Subject</th>
+    <th>Marks</th>
+  </tr>
+  <tr>
+    <td rowspan="3" class="merge">1</td>
+    <td rowspan="3" class="merge">David</td>
+    <td>Maths</td>
+    <td>80</td>
+  </tr>
+  <tr>
+    <td>Physics</td>
+    <td>90</td>
 
   </tr>
+  <tr>
+    <td>Computer</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td rowspan="3" class="merge">2</td>
+    <td rowspan="3" class="merge">Alex</td>
+    <td>Maths</td>
+  <td>80</td>
 
-
-
-
-
-
-
-
+  </tr>
+<tr>
+  <td>Physics</td>
+  <td>70</td>
+</tr>
+<tr>
+  <td>Computer</td>
+  <td>90</td>
+</tr>
 
 
 </table>
+
+
+
+
 
 
 
